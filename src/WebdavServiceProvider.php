@@ -15,7 +15,11 @@ class WebdavServiceProvider extends ServiceProvider
         $this->app->make('filesystem')->extend(
             'webdav',
             function (Container $app, array $config) {
-                return new Filesystem(new WebDAVAdapter(new WebDAVClient($config), $config['baseUri']));
+                $adapter = new WebDAVAdapter(new WebDAVClient($config), $config['baseUri']);
+                if (isset($config['url']) && method_exists($adapter, 'setUrlPrefix')) {
+                    $adapter->setUrlPrefix($config['url']);
+                }
+                return new Filesystem($adapter);
             }
         );
     }

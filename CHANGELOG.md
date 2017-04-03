@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.1.0
+* Add URL configuration option if the underlying adapter supports it.
+
 ## 2.0.2
 * Allow any version of Flysystem WebDAV adapter.
 
