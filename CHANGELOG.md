@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.2
+* Allow any version of Flysystem WebDAV adapter.
+
 ## 2.0.1
 * Add baseUri to adapter to make directory determination work.
 
