@@ -2,7 +2,7 @@
 
 namespace Iclass\Webdav;
 
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\Filesystem;
 use League\Flysystem\WebDAV\WebDAVAdapter;
@@ -12,17 +12,11 @@ class WebdavServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        Storage::extend('webdav', function ($app, $config) {
-            $client = new WebDAVClient($config);
-
-            $adapter = new WebDAVAdapter($client);
-
-            return new Filesystem($adapter);
-        });
-    }
-
-    public function register()
-    {
-
+        $this->app->make('filesystem')->extend(
+            'webdav',
+            function (Container $app, array $config) {
+                return new Filesystem(new WebDAVAdapter(new WebDAVClient($config)));
+            }
+        );
     }
 }
