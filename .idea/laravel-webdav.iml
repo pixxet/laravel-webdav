@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/flysystem-webdav" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/dav" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/event" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/http" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/uri" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/vobject" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabre/xml" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/finder" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/contracts" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/filesystem" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/support" />
+          <root url="file://$MODULE_DIR$/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/vendor/league/flysystem-webdav" />
+          <root url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/dav" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/event" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/http" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/uri" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/vobject" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/xml" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/finder" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/contracts" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/filesystem" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/support" />
+          <root url="file://$MODULE_DIR$/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/vendor/league/flysystem-webdav" />
+          <root url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/dav" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/event" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/http" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/uri" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/vobject" />
+          <root url="file://$MODULE_DIR$/vendor/sabre/xml" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/finder" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

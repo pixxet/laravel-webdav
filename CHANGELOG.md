@@ -1,5 +1,5 @@
 # Changelog
 
-All Notable changes to `laravel-webdav` will be documented in this file.
-
-Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
+## 2.0.0
+* Make package usable on later versions of laravel.
+* Change package names to be independent from upstream.
