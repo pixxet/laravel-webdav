@@ -29,7 +29,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Pbmedia\\FilesystemProviders\\": "src"
+            "Iclass\\Webdav\\": "src",
+            "Tests\\Iclass\\Webdav\\": "test"
         }
     }
 }

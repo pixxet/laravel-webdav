@@ -9,7 +9,7 @@
 Via Composer
 
 ``` bash
-$ composer require pbmedia/laravel-webdav
+$ composer require iclass/laravel-webdav
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Register the service provider in your app.php config file:
 
 'providers' => [
     ...
-    Pbmedia\FilesystemProviders\WebDAVServiceProvider::class
+    Iclass\Webdav\WebdavServiceProvider::class
     ...
 ];
 ```

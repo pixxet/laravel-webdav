@@ -1,6 +1,6 @@
 <?php
 
-namespace Pbmedia\FilesystemProviders;
+namespace Iclass\Webdav;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
@@ -8,7 +8,7 @@ use League\Flysystem\Filesystem;
 use League\Flysystem\WebDAV\WebDAVAdapter;
 use Sabre\DAV\Client as WebDAVClient;
 
-class WebDAVServiceProvider extends ServiceProvider
+class WebdavServiceProvider extends ServiceProvider
 {
     public function boot()
     {
