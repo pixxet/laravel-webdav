@@ -47,17 +47,10 @@ Create a webdav filesystem disk:
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
-
-## Security
-
-If you discover any security related issues, please email info@pascalbaljetmedia.com instead of using the issue tracker.
-
 ## Credits
 
-- [Pascal Baljet][link-author]
+- [iClass][link-author]
+- [Pascal Baljet][link-upstream-author]
 - [All Contributors][link-contributors]
 
 ## License
@@ -68,7 +61,8 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/pbmedia/laravel-webdav.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/pbmedia/laravel-webdav
-[link-downloads]: https://packagist.org/packages/pbmedia/laravel-webdav
+[link-packagist]: https://packagist.org/packages/iclass/laravel-webdav
+[link-downloads]: https://packagist.org/packages/iclass/laravel-webdav
 [link-author]: https://github.com/pascalbaljet
+[link-upstream-author]: https://github.com/pascalbaljet
 [link-contributors]: ../../contributors
