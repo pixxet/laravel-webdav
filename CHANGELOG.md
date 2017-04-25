@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.2.0
+* Add curl_options configuration option.
+
 ## 2.1.0
 * Add URL configuration option if the underlying adapter supports it.
 

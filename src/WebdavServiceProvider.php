@@ -15,7 +15,12 @@ class WebdavServiceProvider extends ServiceProvider
         $this->app->make('filesystem')->extend(
             'webdav',
             function (Container $app, array $config) {
-                $adapter = new WebDAVAdapter(new WebDAVClient($config), $config['baseUri']);
+                $client = new WebDAVClient($config);
+                $options = isset($config['curl_options']) ? $config['curl_options'] : [];
+                foreach ($options as $key => $value) {
+                    $client->addCurlSetting($key, $value);
+                }
+                $adapter = new WebDAVAdapter($client, $config['baseUri']);
                 if (isset($config['url']) && method_exists($adapter, 'setUrlPrefix')) {
                     $adapter->setUrlPrefix($config['url']);
                 }
