@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.2.1
+* Fix regression which makes the package not working on old version of Laravel.
+
 ## 2.2.0
 * Add curl_options configuration option.
 

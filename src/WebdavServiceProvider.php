@@ -28,4 +28,8 @@ class WebdavServiceProvider extends ServiceProvider
             }
         );
     }
+
+    public function register()
+    {
+    }
 }
