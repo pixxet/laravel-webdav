@@ -1,5 +1,5 @@
 {
-    "name": "iclass/laravel-webdav",
+    "name": "pixxet/laravel-webdav",
     "type": "library",
     "description": "Laravel 5 WebDAV Filesystem",
     "keywords": [
@@ -25,7 +25,7 @@
     "require": {
         "php" : "~5.6|~7.0",
         "illuminate/filesystem": "^5.0",
-        "league/flysystem-webdav": "*"
+        "pixxet/flysystem-webdav": "*"
     },
     "autoload": {
         "psr-4": {
